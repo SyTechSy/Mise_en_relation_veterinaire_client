@@ -1,0 +1,73 @@
+<div class="container_global">
+
+  <div class="content_text">
+
+    <div class="ecran">
+      <div class="ecran_vue">
+
+      </div>
+    </div>
+
+    <div class="hearder">
+
+      <!-- <div class="icon_retour" routerLink="/section-choix">
+        <i class="ri-arrow-left-s-line"></i>
+      </div> -->
+
+      <div class="icon_retour" routerLink="/profil-user">
+        <i class="ri-arrow-left-s-line"></i>
+
+        <div class="nom_retour">
+          <p> Modification </p>
+        </div>
+      </div>
+
+      
+
+      <!-- // deconnexion  -->
+      <div class="cadre_nom">
+        <p>Save</p>
+      </div>
+
+      
+    </div>
+
+
+    <!-- /////////////////////////// -->
+
+
+    
+    <div class="container_cadre_profil">
+
+      <div class="cadre_profil">
+
+        <div class="image_profil">
+          <img src="../../../assets/profil_vete.jpg" alt="" [src]="selectedFileDataUrl">
+
+          <label class="camera-icon" for="photoInput">
+            <i class="ri-pencil-line"></i>
+          </label>
+        </div>
+
+        
+
+        <div class="ajoute_photo">
+          <div class="tof">
+            <input type="file" accept="image/*" capture="environment" id="photoInput" style="display: none;" name="photo" (change)="handleFileInput($event)">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- /////////////////////////////////////// -->
+
+    <div class="container_blanc">
+      <div class="cadre_blanc_container">
+        
+      </div>
+    </div>
+
+  
+  </div>
+</div>
