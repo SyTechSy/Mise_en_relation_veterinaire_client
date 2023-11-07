@@ -91,6 +91,14 @@ const routes: Routes = [
     path: 'profil-modification-user',
     loadChildren: () => import('./utilisateur/profil-modification-user/profil-modification-user.module').then( m => m.ProfilModificationUserPageModule)
   },
+  {
+    path: 'footer-utilisateur',
+    loadChildren: () => import('./utilisateur/footer-utilisateur/footer-utilisateur.module').then( m => m.FooterUtilisateurPageModule)
+  },
+  {
+    path: 'home-veterinaire',
+    loadChildren: () => import('./veterinaire/home-veterinaire/home-veterinaire.module').then( m => m.HomeVeterinairePageModule)
+  }
 ];
 
 @NgModule({

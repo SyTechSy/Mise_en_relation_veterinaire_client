@@ -182,3 +182,42 @@
 //     font-size: 20px;
 //     margin-right: 10px;
 // }
+
+
+
+
+
+
+
+
+
+
+////////////////////// FOOTER
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.font_footer {
+    background-color: #fff;
+}
+
+.accueil {
+    text-align: center;
+}
+
+.accueil i{
+    font-size: 35px;
+}
+
+.accueil2 i{
+    font-size: 40px;
+}
+
+.accueil p {
+    font-size: 15px;
+}

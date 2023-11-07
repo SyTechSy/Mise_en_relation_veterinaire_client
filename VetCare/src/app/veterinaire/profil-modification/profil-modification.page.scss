@@ -74,10 +74,10 @@
     top: -15px;
     background-color: #008000;
     color: #fff;
-    padding: 6px;
+    padding: 5px 8px;
     border-radius: 50%;
     font-weight: 200;
-    border: 2px solid #fff;
+    border: 2px solid #F2F6FA;
 }
 
 
@@ -125,4 +125,39 @@
 .eye i {
     font-size: 25px;
     margin-right: 5px;
+}
+
+
+
+
+
+
+////////////////////// FOOTER
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.font_footer {
+    background-color: #fff;
+}
+
+.accueil {
+    text-align: center;
+}
+
+.accueil i{
+    font-size: 35px;
+}
+
+.accueil2 i{
+    font-size: 40px;
+}
+
+.accueil p {
+    font-size: 15px;
 }
