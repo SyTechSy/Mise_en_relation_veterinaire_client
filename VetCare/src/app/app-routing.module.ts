@@ -98,6 +98,22 @@ const routes: Routes = [
   {
     path: 'home-veterinaire',
     loadChildren: () => import('./veterinaire/home-veterinaire/home-veterinaire.module').then( m => m.HomeVeterinairePageModule)
+  },
+  {
+    path: 'home-veterinaire-planning-modification',
+    loadChildren: () => import('./veterinaire/home-veterinaire-planning-modification/home-veterinaire-planning-modification.module').then( m => m.HomeVeterinairePlanningModificationPageModule)
+  },
+  {
+    path: 'information-planning-modifier',
+    loadChildren: () => import('./veterinaire/information-planning-modifier/information-planning-modifier.module').then( m => m.InformationPlanningModifierPageModule)
+  },
+  {
+    path: 'profil-veterinaire-vue-par-clients',
+    loadChildren: () => import('./utilisateur/profil-veterinaire-vue-par-clients/profil-veterinaire-vue-par-clients.module').then( m => m.ProfilVeterinaireVueParClientsPageModule)
+  },
+  {
+    path: 'home-veterinaire-vue-par-clients',
+    loadChildren: () => import('./veterinaire/home-veterinaire-vue-par-clients/home-veterinaire-vue-par-clients.module').then( m => m.HomeVeterinaireVueParClientsPageModule)
   }
 ];
 
