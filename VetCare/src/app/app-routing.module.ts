@@ -114,6 +114,22 @@ const routes: Routes = [
   {
     path: 'home-veterinaire-vue-par-clients',
     loadChildren: () => import('./veterinaire/home-veterinaire-vue-par-clients/home-veterinaire-vue-par-clients.module').then( m => m.HomeVeterinaireVueParClientsPageModule)
+  },
+  {
+    path: 'prendre-rdv',
+    loadChildren: () => import('./utilisateur/prendre-rdv/prendre-rdv.module').then( m => m.PrendreRdvPageModule)
+  },
+  {
+    path: 'detaille-rdv',
+    loadChildren: () => import('./utilisateur/detaille-rdv/detaille-rdv.module').then( m => m.DetailleRdvPageModule)
+  },
+  {
+    path: 'modifier-rdv',
+    loadChildren: () => import('./utilisateur/modifier-rdv/modifier-rdv.module').then( m => m.ModifierRdvPageModule)
+  },
+  {
+    path: 'mes-rdv',
+    loadChildren: () => import('./utilisateur/mes-rdv/mes-rdv.module').then( m => m.MesRdvPageModule)
   }
 ];
 
