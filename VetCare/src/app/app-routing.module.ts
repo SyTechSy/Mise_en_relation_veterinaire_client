@@ -130,6 +130,10 @@ const routes: Routes = [
   {
     path: 'mes-rdv',
     loadChildren: () => import('./utilisateur/mes-rdv/mes-rdv.module').then( m => m.MesRdvPageModule)
+  },
+  {
+    path: 'list-veterinaire',
+    loadChildren: () => import('./veterinaire/list-veterinaire/list-veterinaire.module').then( m => m.ListVeterinairePageModule)
   }
 ];
 
