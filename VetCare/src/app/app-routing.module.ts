@@ -134,6 +134,14 @@ const routes: Routes = [
   {
     path: 'list-veterinaire',
     loadChildren: () => import('./veterinaire/list-veterinaire/list-veterinaire.module').then( m => m.ListVeterinairePageModule)
+  },
+  {
+    path: 'discussion-user-vete',
+    loadChildren: () => import('./utilisateur_veterinaire/discussion-user-vete/discussion-user-vete.module').then( m => m.DiscussionUserVetePageModule)
+  },
+  {
+    path: 'list-forum',
+    loadChildren: () => import('./utilisateur_veterinaire/list-forum/list-forum.module').then( m => m.ListForumPageModule)
   }
 ];
 
